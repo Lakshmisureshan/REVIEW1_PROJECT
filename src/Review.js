@@ -3,7 +3,7 @@ import people from './Data';
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 const Review = () => {
   const [index, setIndex] = useState(0);
-  const { name, job, image, text } = people[index];
+  const { name, job, image, text } = people[0];
   const checknumber = (number) => {
     if (number > people.length - 1) return 0;
 
