@@ -16,7 +16,7 @@ const Review = () => {
   const nextPerson = () => {
     setIndex((index) => {
       let newIndex = index + 1;
-      return checkNumber(newIndex);
+      return checknumber(newIndex);
     });
   };
   return <article className="review"></article>;
