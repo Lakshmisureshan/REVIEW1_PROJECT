@@ -3,7 +3,7 @@ import people from './data';
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 const Review = () => {
   const [index, setIndex] = useState(0);
-  const 
+  const { name, job, image, text } = people[index];
   return <article className="review"></article>;
 };
 export default Review;
